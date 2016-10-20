@@ -23,7 +23,7 @@ public class ConnectionManager {
     public static final int LISTEN_STATE_IDLE = 3;
     public static final int LISTEN_STATE_LISTENING = 4;
 
-    private static final String BT_NAME = "AnddleChat";
+    private static final String BT_NAME = "AnddleController";
     private static final UUID BT_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");//("fa87c0d0-afac-11de-8a39-0800200c9a66");
 
     private int mConnectState = CONNECT_STATE_IDLE;
